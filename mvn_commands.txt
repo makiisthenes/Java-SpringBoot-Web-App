@@ -1,0 +1,12 @@
+mvn commands
+
+mvn clean: we will remove the target file made when we build a project from src.
+mvn compile: in class when compiled from src will put them under target/classes etc. Java class
+
+mvn test: Internally dependent on compile, same as mvn compile test, compile classes and then look at test classes and run them and report shown.
+
+mvn package, will have compile and test, and will make it into a jar test in the target, and so will be able to run on another users pc.
+
+
+
+

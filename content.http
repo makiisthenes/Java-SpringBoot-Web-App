@@ -1,0 +1,40 @@
+### Find All Content
+GET http://localhost:8080/api/content
+
+### Get Content by ID
+GET http://localhost:8080/api/content/1
+
+### Create new Content
+POST http://localhost:8080/api/content/create/
+Content-Type: application/json
+
+{
+    "id":2,
+    "title":"My Second Model Record",
+    "desc":"My Description",
+    "status":"IDEA",
+    "contentType":"ARTICLE",
+    "dateCreated":"2024-04-06T16:42:41.6319546",
+    "dateUpdated":null,
+    "url":""
+}
+
+### Update existing content
+PUT http://localhost:8080/api/content/1/update/
+Content-Type: application/json
+
+{
+  "id":1,
+  "title":"My first edited post.",
+  "desc":"My Description",
+  "status":"IDEA",
+  "contentType":"ARTICLE",
+  "dateCreated":"2024-04-06T16:42:41.6319546",
+  "dateUpdated":null,
+  "url":"https://peresmichael.com"
+}
+
+
+### Delete by id
+DELETE http://localhost:8080/api/content/2/delete/
+// Should return OK or NO Content.
