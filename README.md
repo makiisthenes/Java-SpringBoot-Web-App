@@ -1,7 +1,18 @@
 # Java Spring Boot - Web App Project
 Java Spring Boot Project, with Web Gateway and Microservices, AWS, Github.
 
-----
+
+-------
+**POST PROJECT NOTES:**
+
+Currently Project is a project that utilises Spring Boot Web Framework,making Controllers with annotations, Models using JBDC to make a working REST API, it is very rudimentary with no addition to authentication, postgres connection etc, but serves as a starting point for future development of SpringBoot Projects, I do like Django more due to ORM and simplicity, this does seem a bit more verbose.
+
+To improve on project, I would like to make a web app specifically useful in my domain, such that I can implement multiple images and possible implement a web gateway like mentioned in YouTube video (Cloud Gateway): https://www.youtube.com/watch?v=EKoq98KqvrI, in addition to this deploying this on a cloud platform like AWS.
+
+
+-------
+## Start of Development Notes
+
 The video that my project follows is:
 https://www.youtube.com/watch?v=UgX5lgv4uVM
 
