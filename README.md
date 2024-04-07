@@ -32,6 +32,7 @@ We will aim to deploy this application using Docker.
 ---
 
 #### Spring & Spring Boot
+![image](https://github.com/makiisthenes/Java-SpringBoot-Web-App/assets/52138450/05b41d73-e7c8-40b0-b4eb-092af1112bea)
 
 Spring Framework, used for a variety of applications,
  Webapps, secure, responsive, that connects to any data store.
